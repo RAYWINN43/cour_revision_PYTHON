@@ -2,8 +2,8 @@
 # test_distinct=[1, 5, 7, 9]
 # test_distinct=[2, 4, 5, 5, 7, 9]
 
-def distinctlist(test_distinct):
-    if len(test_distinct) == len(set(test_distinct)):
+def distinctlist(data):
+    if len(data) == len(set(data)):
         return True   
     else:
         return False  
